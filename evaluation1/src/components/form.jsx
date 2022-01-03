@@ -25,7 +25,7 @@ setForm({...form,[name]:val});
  const handlesub=(e) => {
      e.preventDefault();
      console.log(form);
-     console.log(ref.current.file)
+    //  console.log(ref.current.file)
      const payload={
         title:form.title,
         ingredients:form.ingredients,
