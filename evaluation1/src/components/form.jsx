@@ -1,7 +1,7 @@
 
-import { useState,useRes} from "react";
+import { useState,useRef} from "react";
 import { nanoid } from 'nanoid';
- export const form =({data})=> {
+ export const Form =()=> {
  const[form,setForm] =useState({
     title:"",
      ingredients:"",
@@ -10,7 +10,7 @@ import { nanoid } from 'nanoid';
         instructions:""
  })
  const [stat,setStat] = useState([]);
- const res=useRes("");
+ const ref=useRef("");
  const handleChange=(e)=>{
 const {name,val}=e.target;
 setForm({...form,[name]:val});
@@ -18,14 +18,14 @@ setForm({...form,[name]:val});
  }
 
  const handleChangefirst=(e)=>{
-    setForm({...form,image:res.current.file[0].name});
-     console.log(res.current.file[0].name)
+    setForm({...form,image:ref.current.file[0].name});
+     console.log(ref.current.file[0].name)
  }
 
  const handlesub=(e) => {
      e.preventDefault();
      console.log(form);
-     console.log(res.current.file[0].name)
+     console.log(ref.current.file[0].name)
      const payload={
         title:form.title,
         ingredients:form.ingredients,
@@ -46,11 +46,11 @@ setForm({...form,[name]:val});
  }
 return (
     <form onSubmit={ handlesub}>
-<input onchange ={handleChange}  name="title" type="text" />
-<input onchange ={handleChange}  name="ingredients"type="text" />
-<input onchange ={handleChange}  name="timetocook"type="text" />
-<input onchange ={handleChange}  name=" instructions"type="text" />
-<input res={res} onChange={handleChangefirst} type="file" />
+<input onchange ={handleChange}  name="title" type="text"  placeholder="title"/>
+<input onchange ={handleChange}  name="ingredients"type="text"placeholder="ingredients" />
+<input onchange ={handleChange}  name="timetocook"type="text" placeholder="  timetocook" />
+<input onchange ={handleChange}  name=" instructions"type="text" placeholder="instructions" />
+<input ref={ref} onChange={handleChangefirst} type="file" />
 <input type="submit" val="submit" />
     </form>
 )

@@ -1,10 +1,10 @@
 // import logo from './logo.svg';
 import './App.css';
-import form from './components/form'
+import { Form } from './components/form'
 function App() {
   return (
     <div className="App">
-     
+     <form/>
     </div>
   );
 }
