@@ -1,0 +1,29 @@
+#box{
+    height:900px;
+    width:700px;
+    display: flex;
+    border:2px solid rgb(14, 233, 43);
+    border-radius: 10px;
+    margin: auto;
+}
+.b1{
+    background-color: crimson;
+    /* margin: auto; */
+    width:50%
+  
+}
+.b2{
+    background-color: rgb(231, 184, 193);
+    height:auto;
+    width:100%;
+  
+}
+button{
+    background-color: darkblue;
+    color:white;
+    width:20px;
+    height:30px;
+    cursor: pointer;
+}
+
+
