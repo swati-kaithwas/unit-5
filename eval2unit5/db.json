@@ -1,0 +1,56 @@
+{
+  "home": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "Company_name": "",
+      "job_title": "",
+      "salary_range": "",
+      "job_description": "",
+      "job_type": "",
+      "status": false,
+      "id": 2
+    },
+    {
+      "Company_name": "mckc",
+      "job_title": "mckc",
+      "salary_range": "mckc",
+      "job_description": "mckc",
+      "job_type": "mckc",
+      "status": false,
+      "id": 3
+    },
+    {
+      "Company_name": "hhi",
+      "job_title": "hhi",
+      "salary_range": "hhi",
+      "job_description": "hhi",
+      "job_type": "hhi",
+      "status": false,
+      "id": 4
+    },
+    {
+      "setName": "a",
+      "setSalaryrange": "a",
+      "setDescription": "a",
+      "job_description": "a",
+      "setLocatation": "a",
+      "setJobtype": "a",
+      "status": false,
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
