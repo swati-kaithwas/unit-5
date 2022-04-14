@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+#infinite {
+ 
+ width: 400px;
+ height: 500px;
+ overflow: auto;
+ text-align:center;
+
+
+ margin: 30px;
+ padding: 20px;
+ border: 10px solid #771111;
+border-radius:20px;
+}
+
+
+li {
+ padding: 10px;
+ list-style-type: none;
+}
+li:hover {
+ background: #E57373;
+}
+</style>
+<body>
+    <ul id='infinite'>
+    </ul>  
+</body>
+<script>
+var listElm = document.querySelector('#infinite');
+
+
+var nextItem = 1;
+var loadMore = function() {
+  for (var i = 0; i < 20; i++) {
+    var item = document.createElement('li');
+    item.innerText = 'Masai Student ' + nextItem++;
+    listElm.appendChild(item);
+  }
+}
+
+
+listElm.addEventListener('scroll', function() {
+  if (listElm.scrollTop + listElm.clientHeight >= listElm.scrollHeight) {
+    loadMore();
+  }
+});
+
+
+loadMore();
+</script>
+</html>
