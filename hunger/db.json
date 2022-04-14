@@ -1,0 +1,143 @@
+{"data": [
+    {
+   "name":"URU Brewpark",
+    "images":"https://img.freepik.com/free-photo/big-hamburger-with-double-beef-french-fries_252907-8.jpg?w=2000",
+   "rating":5,
+    "cost_for_one":400,
+    "votes":420,
+    "reviews":502,
+    "food_type":"Continental,Pizza,Asian,Desserts",
+    "payment_methods": {
+           "card": true,
+            "cash": true,
+            "upi": false
+        }
+    },
+    {
+        "name":"URU Brewpark",
+         "images":"https://img.freepik.com/free-photo/big-hamburger-with-double-beef-french-fries_252907-8.jpg?w=2000",
+        "rating":5,
+         "cost_for_one":600,
+         "votes":400,
+         "reviews":512,
+         "food_type":"Asian,Desserts,Fish and seafood",
+         "payment_methods": {
+                "card": true,
+                 "cash": true,
+                 "upi": true
+             }
+         },
+         {
+            "name":"URU Brewpark",
+             "images":"https://img.freepik.com/free-photo/big-hamburger-with-double-beef-french-fries_252907-8.jpg?w=2000",
+            "rating":3,
+             "cost_for_one":200,
+             "votes":434,
+             "reviews":642,
+             "food_type":"Continental,Pizza,Asian,Casual dining.",
+             "payment_methods": {
+                    "card": true,
+                     "cash": true,
+                     "upi": true
+                 }
+             },
+             {
+                "name":"URU Brewpark",
+                 "images":"https://img.freepik.com/free-photo/big-hamburger-with-double-beef-french-fries_252907-8.jpg?w=2000",
+                "rating":4,
+                 "cost_for_one":900,
+                 "votes":81,
+                 "reviews":51,
+                 "food_type":"Casual dining,Continental,Pizza",
+                 "payment_methods": {
+                        "card": false,
+                         "cash": true,
+                         "upi": true
+                     }
+                 },
+                 {
+                    "name":"URU Brewpark",
+                     "images":"https://img.freepik.com/free-photo/big-hamburger-with-double-beef-french-fries_252907-8.jpg?w=2000",
+                    "rating":2,
+                     "cost_for_one":200,
+                     "votes":213,
+                     "reviews":210,
+                     "food_type":"Pizza,Asian,Desserts,cake,fast food",
+                     "payment_methods": {
+                            "card": true,
+                             "cash": true,
+                             "upi": true
+                         }
+                     },
+                     {
+                        "name":"URU Brewpark",
+                         "images":"https://img.freepik.com/free-photo/big-hamburger-with-double-beef-french-fries_252907-8.jpg?w=2000",
+                        "rating":1,
+                         "cost_for_one":600,
+                         "votes":400,
+                         "reviews":512,
+                         "food_type":"Continental,Desserts,Meat and poultry",
+                         "payment_methods": {
+                                "card": true,
+                                 "cash": true,
+                                 "upi": false
+                             }
+                         },
+                         {
+                            "name":"URU Brewpark",
+                             "images":"https://img.freepik.com/free-photo/big-hamburger-with-double-beef-french-fries_252907-8.jpg?w=2000",
+                            "rating":2,
+                             "cost_for_one":300,
+                             "votes":200,
+                             "reviews":500,
+                             "food_type":"Continental,Pizza,Asian,Desserts,veg",
+                             "payment_methods": {
+                                    "card": false,
+                                     "cash": true,
+                                     "upi": true
+                                 }
+                        },
+                             {
+                                "name":"URU Brewpark",
+                                 "images":"https://img.freepik.com/free-photo/big-hamburger-with-double-beef-french-fries_252907-8.jpg?w=2000",
+                                "rating":3,
+                                 "cost_for_one":700,
+                                 "votes":405,
+                                 "reviews":812,
+                                 "food_type":"Continental,Pizza,Asian,Desserts,non veg",
+                                 "payment_methods": {
+                                        "card": false,
+                                         "cash": true,
+                                         "upi":false
+                                     }
+                             },
+                             {
+                                "name":"URU Brewpark",
+                                 "images":"https://img.freepik.com/free-photo/big-hamburger-with-double-beef-french-fries_252907-8.jpg?w=2000",
+                                "rating":2,
+                                 "cost_for_one":300,
+                                 "votes":200,
+                                 "reviews":500,
+                                 "food_type":"Continental,Pizza,Asian,Desserts,veg",
+                                 "payment_methods": {
+                                        "card": false,
+                                         "cash": true,
+                                         "upi": true
+                                     }
+                            },
+                                 {
+                                    "name":"URU Brewpark",
+                                     "images":"https://img.freepik.com/free-photo/big-hamburger-with-double-beef-french-fries_252907-8.jpg?w=2000",
+                                    "rating":3,
+                                     "cost_for_one":700,
+                                     "votes":405,
+                                     "reviews":812,
+                                     "food_type":"Continental,Pizza,Asian,Desserts,non veg",
+                                     "payment_methods": {
+                                            "card": false,
+                                             "cash": true,
+                                             "upi":false
+                                         }
+                                 }
+            ]
+        }

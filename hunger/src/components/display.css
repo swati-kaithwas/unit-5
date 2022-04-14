@@ -1,0 +1,17 @@
+.box {
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    /* grid-template-rows: repeat(3,30%); */
+    gap:30px;
+}
+button{
+    color:red;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 10px;
+}
+button:hover{
+    color:aquamarine;
+    background-color: burlywood;
+}
